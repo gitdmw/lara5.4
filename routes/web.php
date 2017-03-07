@@ -17,5 +17,5 @@ Route::get('/', function () {
 });
 
 route::get('name',function ($name,$old){
-    return '111';
+    echo  '111';
 });
