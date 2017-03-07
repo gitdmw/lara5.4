@@ -16,6 +16,6 @@ Route::get('/', function () {
     //return view('welcome');
 });
 
-route::get('name',function ($name,$old){
+route::get('name',function (){
     echo  '111';
 });
