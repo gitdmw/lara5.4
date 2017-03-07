@@ -16,6 +16,6 @@ Route::get('/', function () {
     //return view('welcome');
 });
 
-route::get('name/a={name}/old/o={old}',function ($name,$old){
-    return $name.$old;
+route::get('name',function ($name,$old){
+    return '111';
 });
