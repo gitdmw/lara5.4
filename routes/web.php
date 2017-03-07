@@ -15,3 +15,7 @@ Route::get('/', function () {
     phpinfo();
     //return view('welcome');
 });
+
+route::get('name/a={name}/old/o={old}',function ($name,$old){
+    return $name.$old;
+});
